@@ -1,0 +1,148 @@
+body {
+  font-style: italic;
+  background-image: url(../image/background.jpg);
+}
+
+.logo {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 a {
+  font-size: 3rem;
+  color: rgb(27, 15, 202);
+  text-decoration: none;
+}
+
+h2 {
+  color: rgb(223, 16, 119);
+  font-size: 2em;
+}
+
+h2 a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navigate {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+/* footer */
+
+footer p {
+  text-align: center;
+  font-size: xx-small;
+  padding-top: 7px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 10px;
+  align-items: center;
+  height: 40px;
+  padding-top: 20px;
+}
+
+.social__link {
+  fill: rgb(3, 54, 197);
+}
+
+.social__icon {
+  width: 30px;
+  padding-left: 40px;
+}
+
+.contacts span {
+  margin-right: 4px;
+}
+
+/* main */
+
+a {
+  text-decoration: none;
+}
+
+.discrabe {
+  margin: 15px;
+  text-align: center;
+}
+
+.discrabe p {
+  padding: 5px;
+  font-size: 30px;
+}
+
+.main_image {
+  width: 100%;
+}
+
+.main_block {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
+}
+
+.main_block p {
+  font-size: 90%;
+  margin-left: 20px;
+}
+
+.border {
+  list-style: none;
+  padding: 0;
+  }
+  .border li {
+  font-family: "Trebuchet MS", "Lucida Sans";
+  padding: 7px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-left: 10px solid #f05d22; 
+  box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+       -2px -2px 5px 0 rgba(0,0,0,.1),
+      2px 2px 5px 0 rgba(0,0,0,.1),
+      -2px 2px 5px 0 rgba(0,0,0,.1);
+  font-size: 20px;
+  letter-spacing: 2px;
+  transition: 0.3s all linear;
+  }
+  .border li:nth-child(2){border-color: #8bc63e;}
+  .border li:nth-child(3){border-color: #1ccfc9;}
+  .border li:hover {border-left: 10px solid transparent;}
+  .border li:nth-child(1):hover {border-right: 10px solid #f05d22;}
+  .border li:nth-child(2):hover {border-right: 10px solid #8bc63e;}
+  .border li:nth-child(3):hover {border-right: 10px solid #1ccfc9;}
+  
+
+
+  .text {
+    font-family: "Trebuchet MS", "Lucida Sans";
+    color: coral;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+
+  /* responze */
+
+  @media only screen and (min-width: 768px) {
+    .main_block p {
+      font-size: 235%;
+    }
+  }
