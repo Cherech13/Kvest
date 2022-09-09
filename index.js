@@ -20,7 +20,7 @@ $(document).ready(function () {
       slidesToScroll: 6,
       dots: false,
       focusOnSelect: false,
-      infinite: false,
+      infinite: true,
       responsive: [
         {
           breakpoint: 1024,

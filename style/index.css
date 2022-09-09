@@ -148,11 +148,11 @@ a {
     }
   }
 
-
   /* page 'Kvests' */
    
   .first_block_text {
     padding: 15px;
+    font-size: 25px;
     text-align: center;
   }
 
@@ -164,7 +164,8 @@ a {
   }
 
   .kvest p {
-    padding-left: 25px;
+    padding: 25px 0 0 0;
+    font-size: 25px;
   }
 
   .kvest_nav img {
