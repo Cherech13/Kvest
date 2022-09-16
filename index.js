@@ -18,7 +18,7 @@ $(document).ready(function () {
     .slick({
       slidesToShow: 6,
       slidesToScroll: 6,
-      dots: false,
+      dots: true,
       focusOnSelect: false,
       infinite: true,
       responsive: [
