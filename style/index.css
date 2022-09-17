@@ -181,7 +181,7 @@ a {
     text-align: center;
   }
 
-  .slider-single .slick-arrow. {
+  .slider-single .slick-arrow {
     position: absolute;
     top: 50%;
     z-index: 10;
@@ -225,7 +225,8 @@ a {
     display: inline-block;
     padding: 5px 0;
     position: relative;
-    -webkit-background-clip: text;
+    background-clip: text;
+     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 0.3s ease-in-out;
   }
